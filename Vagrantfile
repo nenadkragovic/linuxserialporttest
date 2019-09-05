@@ -59,7 +59,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     
   end
   
-  # Fazi Database
+  # test Database
   # config.vm.define "database" do |db|
     # db.vm.box = "ubuntu/bionic64"
     # db.vm.network "private_network", ip: "192.168.33.111"
