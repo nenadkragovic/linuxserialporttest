@@ -86,7 +86,7 @@ namespace SimpleChatApp
             Console.Write("Enter COM port value (Default: {0}): ", defaultPortName);
             portName = Console.ReadLine();
 
-            if (portName == "" || !(portName.ToLower()).StartsWith("com"))
+            if (portName == "")
             {
                 portName = defaultPortName;
             }
